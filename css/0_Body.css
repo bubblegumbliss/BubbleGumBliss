@@ -1,0 +1,27 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  /* background-color: #7fff8a; */
+  font-family: "yink";
+  overflow-x: hidden; /* Verhindert horizontalen Scrollbalken */
+}
+
+
+:root {
+  --blue: #7fd2ff;
+  --green: #96dd32;
+
+}
+
+.Text_Titel {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+}
+

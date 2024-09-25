@@ -1,0 +1,53 @@
+
+.A_intro {
+  position: relative;
+  width: 100vw;
+  height: 235vw;
+  overflow: visible;
+  background: linear-gradient(to bottom, white 75%, #7fd2ff 85%, #7fd2ff 100%);
+  z-index: -10;
+}
+
+.A_intro_background {
+  position: absolute;
+  top: -400px;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/images/Muster1_fs.png') no-repeat center center;
+  background-size: cover;
+  overflow: visible;
+  z-index: -5;
+}
+
+.custom-cursor {
+  position: sticky;
+  width: 20vw;
+  height: 20vw;
+  background-color: #7fd2ff; 
+  border-radius: 50%;
+  pointer-events: none; /* Prevents the cursor from interacting with the circle */
+  z-index: -3;
+}
+
+.A_intro_Muster {
+  position: absolute;
+  top: -400px;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/images/Muster1_fs_schwarz_L.png') no-repeat center center;
+  background-size: cover;
+  overflow: visible;
+  z-index: -1;
+}
+
+.A_intro_Typo {
+  position: absolute;
+  top: -400px;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/images/Muster1_fs_schwarz_Typo.png') no-repeat center center;
+  background-size: cover;
+  overflow: visible;
+  z-index: 0;
+
+}

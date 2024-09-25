@@ -1,0 +1,12 @@
+.Abstand {
+  position: relative;
+  top: 0;
+  height: 10vw;
+  width: 100vw;
+
+
+
+  background-color: rgb(255, 255, 255);
+  /* background: linear-gradient(to top, white 5%, #7fd2ff 40%, #7fd2ff 100%); */
+
+}
