@@ -71,7 +71,7 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('/bubblegumbliss/assets/images/packaging3_fs_gruen.png'); /* Hintergrundbild des statischen Bildes */
+  background-image: url('../assets/images/packaging3_fs_gruen.png'); /* Hintergrundbild des statischen Bildes */
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center; /* Zentrierte Hintergrundbildposition */
@@ -90,7 +90,7 @@
 .layer-1 {
   top: 35%; 
   left: 40%;
-  background-image: url('../assets/images/packaging3_fs_gruen.png'); /* Bild für Layer 1 */
+  background-image: url('../assets/images/gum.png'); /* Bild für Layer 1 */
 }
 
 .layer-2 {
