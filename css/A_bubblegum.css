@@ -4,12 +4,8 @@
   max-height: max-content;
   top: -300px;
   overflow: visible;
-
-  /* min-height: 100vh; Mindestens die Höhe des Viewports */
   background: linear-gradient(#7fd2ff 0%, #7fd2ff 75%, #ffffff 100%);
-  /* z-index: -150;  */
 }
-
 
 .A_bubblegum_banner {
   width: 100%;
@@ -18,8 +14,7 @@
   overflow: visible;
   padding: 50px 0;
   white-space: nowrap;
-  position: absolute; /* geändert von relative zu absolute */
-
+  position: absolute;
 }
 
 .banner1,
@@ -31,9 +26,8 @@
 .banner7,
 .banner8 {
   margin-top: 6vw;
-  background: black; /* Farbverlauf anwenden */
+  background: black;
 }
-
 
 .A_bubblegum_banner-content {
   display: flex;
@@ -53,7 +47,6 @@
 .A_bubblegum_banner-text {
   font-size: 2rem;
   padding-right: 2em;
-  /* color: var(--blue); */
   color: white;
 }
 
@@ -61,29 +54,26 @@
   position: relative;
   top: 10%;
   margin: auto;
-  width: 50%;
-  height: 100vh; /* Höhe der langen Landing Page */
+  width: 100%; /* Füllt den verfügbaren Platz */
+  height: 100vh; /* Höhe des Containers */
   overflow: visible;
-  z-index: 2; /* z-index hinzugefügt, um den Container über dem Banner zu platzieren */
+  z-index: 2;
 }
 
 .A_bubblegum_packaging-layer {
   width: 100%;
   height: 100%;
-
-  background-image: url('./assets/images/packaging3_fs_gruen.png'); /* Hintergrundbild des statischen Bildes */
-  background-size: 100%;
+  background-image: url('./assets/images/packaging3_fs_gruen.png'); /* Hintergrundbild */
+  background-size: cover; /* Hintergrundbild deckt den Container ab */
   background-repeat: no-repeat;
   background-position: center; /* Zentrierte Hintergrundbildposition */
 }
 
-
 .A_bubblegum_gum-layer {
   position: absolute;
   width: 18%; 
-  height: 18%; 
+  height: auto; /* Höhe proportional zur Breite */
   background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -113,10 +103,10 @@
 
 .A_bubblegum_hand {
   position: absolute;
-  top: -20%;
+  top: -20%; /* Stelle sicher, dass die Hand sichtbar ist */
   right: -30%;
   width: 45vw; 
-  height: auto; /* Skaliert die Höhe proportional zur Breite */
+  height: auto; 
   transform-origin: top right;
   animation: rotateInOut 6s linear infinite;
 }
