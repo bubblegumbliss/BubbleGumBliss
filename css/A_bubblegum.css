@@ -90,25 +90,25 @@
 .layer-1 {
   top: 35%; 
   left: 40%;
-  background-image: url('./assets/images/gum.png'); /* Bild für Layer 1 */
+  background-image: url('../assets/images/packaging3_fs_gruen.png'); /* Bild für Layer 1 */
 }
 
 .layer-2 {
   top: 30%; 
   left: 25%;
-  background-image: url('./assets/images/gum.png'); /* Bild für Layer 2 */
+  background-image: url('../assets/images/gum.png'); /* Bild für Layer 2 */
 }
 
 .layer-3 {
   top: 26%; 
   left: 65%;
-  background-image: url('./assets/images/gum.png'); /* Bild für Layer 3 */
+  background-image: url('../assets/images/gum.png'); /* Bild für Layer 3 */
 }
 
 .layer-4 {
   top: 0%; 
   left: 55%;
-  background-image: url('./assets/images/gum.png'); /* Bild für Layer 4 */
+  background-image: url('../assets/images/gum.png'); /* Bild für Layer 4 */
 }
 
 .A_bubblegum_hand {
