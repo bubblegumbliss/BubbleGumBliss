@@ -20,7 +20,7 @@
 }
 
 .custom-cursor {
-  position: sticky;
+  position: sticky; 
   width: 20vw;
   height: 20vw;
   background-color: #7fd2ff; 
@@ -45,7 +45,7 @@
   top: -400px;
   width: 100%;
   height: 100%;
-  background: url('../assets/images/Muster1_fs_schwarz_Typo.png') no-repeat center center;
+  background: url('../assets/images/Muster1_fs_schwarz_Typo_klein.png') no-repeat center center;
   background-size: cover;
   overflow: visible;
   z-index: 0;
